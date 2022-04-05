@@ -1,4 +1,5 @@
 #bg_img{
-    background: url(images/the_little_mermaid_background.PNG) center center;
-    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
