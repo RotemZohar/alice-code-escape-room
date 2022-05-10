@@ -28,24 +28,26 @@ body{
       /* } */ 
 
 #friend1{
-  height: 200px;
-  width: 200px;
+
+  transform: rotate(309deg);
+  height: 149px;
   position: absolute;
-  top: 800px;
-  right: 800px;
+  top: 220px;
+  right: 105px;
+
 }
 
 #friend2{
+  transform: scaleX(-1);
   height: 200px;
   width: 200px;
   position: absolute;
-  top: 400px;
-  right: 1100px;
+  top: 423px;
+  right: 324px;
 }
 
 #ariel{
-  height: 700px;
-  width: 500px;
+  height: 50%;
   position: fixed;
   bottom: 0;
   right: -1;
