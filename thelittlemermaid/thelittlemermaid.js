@@ -10,4 +10,5 @@ function found2(){
     // img.src = "";
     alert("you found me!");
     document.getElementById('friend2').style.left="200px";
+    document.body.style.backgroundImage = "url('../Images/thelittlemermaid_background.PNG')";
 }
