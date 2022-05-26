@@ -1,9 +1,13 @@
 .myDiv {
-    background-color: lightblue;
-    border: 5px outset #7cb8d9;
-    text-align: center;
-    padding: 15px 32px;
-    font-size: 19;
-    margin: 4px 2px;
-  }
-  
+  background-color: lightblue;
+  border: 5px outset #7cb8d9;
+  text-align: center;
+  padding: 15px 32px;
+  font-size: 19;
+  margin: 4px 2px;
+  width: 50%;
+}
+.bg_img {
+  width: 70%;
+}
+
