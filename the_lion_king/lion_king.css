@@ -5,10 +5,48 @@
   padding: 15px 32px;
   font-size: 19;
   margin: 4px 2px;
-  width: 50%;
+  width: 17%;
 }
-.bg_img {
-  width: 100%;
-  padding: 1000px 2000px;
+
+body {
+
+    background-image:url('../images/lion_king_background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+
+
+
+#Character0{
+  height: 250px;
+  width: 257px;
+  position: absolute;
+  top: 418px;
+  right: 753px;
 }
+  
+#Character1{   
+    height: 250px;
+    width: 316px;
+    position: absolute;
+    top: 448px;
+    right: 212px;
+  }
+#Character2{
+    transform: scaleX(-1);
+    height: 250px;
+    width: 285px;
+    position: absolute;
+    top: 365px;
+    right: 1111px;
+  }  
+#Character3{
+  transform: scaleX(-1);
+  height: 250px;
+  width: 255px;
+  position: absolute;
+  top: 215px;
+  right: 10px;
+  }
 
