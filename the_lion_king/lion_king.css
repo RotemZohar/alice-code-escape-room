@@ -1,10 +1,10 @@
 .myDiv {
-  background-color: lightblue;
-  border: 5px outset #7cb8d9;
+  background-color: rgba(172, 212, 226, 0.0);
+  border: 5px outset #84bcdb;
   text-align: center;
   padding: 15px 32px;
   font-size: 19;
-  margin: 4px 2px;
+  margin: 20px 14px;
   width: 17%;
 }
 
@@ -24,6 +24,7 @@ body {
   position: absolute;
   top: 418px;
   right: 753px;
+
 }
   
 #Character1{   
