@@ -1,14 +1,30 @@
+foundfish=false
+foundcrab=false
 function found(){
     // var img = document.createElement("img");
     // img.src = "";
     alert("you found me!");
     document.getElementById('friend1').style.left="200px";
+    foundfish=true
+    if (foundcrab==true && foundfish==true){
+        nextstage()
+    }
 }
 
 function found2(src, width){
     // var img = document.createElement("img");
     // img.src = "";
     alert("you found me!");
+    foundcrab=true
+    if (foundcrab==true && foundfish==true){
+        nextstage()
+    }
+    
+
+}
+
+function nextstage(){
+
     document.getElementById('friend2').style.left="200px";
     document.body.style.backgroundImage = "url('../Images/thelittlemermaid_background.PNG')";
     var img = document.createElement("img");
@@ -29,9 +45,11 @@ function found2(src, width){
     img2.width = 150;
     document.body.appendChild(img2);
     setTimeout(function() {alert("ursula: if you want your legs then you would have to guess which legs are yours!")}, 500);
-    
-
 }
+
+
+
+
 function legs1oc(){
     alert("wrong legs try again!")
 }
