@@ -70,3 +70,13 @@ body{
   top: 200px; 
   right: 350px; 
 }
+
+.myDiv {
+  background-color: rgba(172, 212, 226, 0.0);
+  border: 5px outset #84bcdb;
+  text-align: center;
+  padding: 15px 32px;
+  font-size: 19;
+  margin: 20px 14px;
+  width: 17%;
+}
