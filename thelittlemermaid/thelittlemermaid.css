@@ -80,3 +80,17 @@ body{
   margin: 20px 14px;
   width: 17%;
 }
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 466px;
+  visibility: hidden;
+  font-size: x-large;
+}

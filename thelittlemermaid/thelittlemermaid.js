@@ -55,5 +55,11 @@ function legs1oc(){
 }
 
 function legs2oc(){
-    alert("correct!")
+    alert("correct!");
+    document.getElementById("arielWithLegs").style.visibility= "visible";
+    document.getElementById("legs_text").style.visibility= "visible";
+}
+
+function nextroom(){
+    window.location.replace("../the_lion_king/lion_king.html");
 }
