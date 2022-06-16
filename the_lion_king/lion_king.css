@@ -51,9 +51,11 @@ body {
   right: 10px;
   }
 
-#button{
-  background-color: #080307;
+#caveEntrence{
+  background-color: transparent;
   padding: 35px 16px;
-  margin: 262px 657px;
-  width: 11%;
+  margin: 187px 623px;
+  width: 273px;
+  height: 121px;
+  border: transparent;
 }
