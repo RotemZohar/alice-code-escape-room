@@ -72,7 +72,7 @@ body{
 }
 
 .myDiv {
-  background-color: rgba(172, 212, 226, 0.0);
+  background-color: #e72c2c;
   border: 5px outset #84bcdb;
   text-align: center;
   padding: 15px 32px;
@@ -90,7 +90,7 @@ body{
 .top-left {
   position: absolute;
   top: 8px;
-  left: 466px;
+  left: 523px;
   visibility: hidden;
   font-size: x-large;
 }

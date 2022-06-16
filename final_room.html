@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alicecode Escape Room!</title>
+    <script src="escape_room.js"></script>
     <link rel="icon" type="image/x-icon" href="images/disney-favicon.ico">
     <style>
         body {
@@ -17,10 +18,55 @@
             color: #eeeeee;
             background-color: black;
         }
+
+        button {
+            position: absolute;
+            left: 37%;
+            display: inline-block;
+            background-color: #7b38d8;
+            border-radius: 10px;
+            border: 4px double #cccccc;
+            color: #eeeeee;
+            text-align: center;
+            font-size: 28px;
+            padding: 20px;
+            width: 380px;
+            transition: all 0.5s;
+            cursor: pointer;
+            margin: 5px;
+        }
+        button span {
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            transition: 0.5s;
+        }
+        button span:after {
+            content: '\00bb';
+            position: absolute;
+            opacity: 0;
+            top: 0;
+            right: -20px;
+            transition: 0.5s;
+        }
+        button:hover {
+            background-color: #f7c2f9;
+            color: #000000;
+        }
+        button:hover span {
+            padding-right: 25px;
+        }
+        button:hover span:after {
+            opacity: 1;
+            right: 0;
+        }
     </style>
 </head>
 <body> 
     <h1>You escaped!!</h1>
+    <button onclick="backToStart()">
+        <span>Click here to play again!</span>
+      </button>
     <a href="#" class="button"></a>
 </body>
 </html>
