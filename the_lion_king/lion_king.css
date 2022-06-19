@@ -19,43 +19,46 @@ body {
 
 
 #Character0{
-  height: 250px;
-  width: 257px;
+  height: 40%;
+  width: 17%;
   position: absolute;
-  top: 418px;
-  right: 753px;
+  top: 60%;
+  left: 26%;
 
 }
   
 #Character1{   
-    height: 250px;
-    width: 316px;
-    position: absolute;
-    top: 448px;
-    right: 212px;
-  }
+  height: 32%;
+  width: 24%;
+  position: absolute;
+  top: 60%;
+  right: 20%;
+}
 #Character2{
     transform: scaleX(-1);
-    height: 250px;
-    width: 285px;
+    height: 35%;
+    width: 18%;
     position: absolute;
-    top: 365px;
-    right: 1111px;
+    top: 54%;
+    left: 5%;
   }  
 #Character3{
   transform: scaleX(-1);
-  height: 250px;
-  width: 255px;
+  height: 40%;
+  width: 16%;
   position: absolute;
-  top: 215px;
-  right: 10px;
+  top: 31%;
+  right: 3%;
   }
 
 #caveEntrence{
   background-color: transparent;
-  padding: 35px 16px;
-  margin: 187px 623px;
-  width: 273px;
-  height: 121px;
+  width: 21%;
+  height: 17%;
   border: transparent;
+  margin: auto;
+  display: block;
+  position: absolute;
+  top: 63%;
+  left: 40%;
 }

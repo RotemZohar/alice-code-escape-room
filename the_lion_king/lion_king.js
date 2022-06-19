@@ -22,7 +22,7 @@ function img(){
     alert("Aya");
     clearInterval(interval0);
     var image = document.getElementById("Character0");
-    image.style.transform = "scaleX(-1) skewY(333deg) rotate(88deg)"
+    image.style.transform = "scaleX(-1) rotate(88deg)"
     imgCharacter1=true
     checkIfDone();
 }
@@ -31,7 +31,7 @@ function img1(){
     alert("Ouch");
     clearInterval(interval1);
     var image = document.getElementById("Character1");
-    image.style.transform = "scaleX(-1) skewY(333deg) rotate(151deg)"
+    image.style.transform = "scaleX(-1) rotate(160deg)"
     img1Character2=true
     checkIfDone();
 
@@ -41,7 +41,7 @@ function img2(){
     alert("It hurt");
     clearInterval(interval2);
     var image = document.getElementById("Character2");
-    image.style.transform = "scaleX(-1) skewY(333deg) rotate(200deg)"
+    image.style.transform = "scaleX(-1) rotate(200deg)"
     img2Character3=true
     checkIfDone();
 }
@@ -50,7 +50,7 @@ function img3(){
     alert("Noooo");
     clearInterval(interval3);
     var image = document.getElementById("Character3");
-    image.style.transform = "scaleX(-1) skewY(333deg) rotate(279deg)"
+    image.style.transform = "scaleX(-1) rotate(279deg)"
     img3Character4=true
     checkIfDone();
 }
